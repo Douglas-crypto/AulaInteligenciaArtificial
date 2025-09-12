@@ -1,7 +1,7 @@
 import random
 
 class Aspirador:
-    def __init__(self, posicao= 0, energia = 50):
+    def __init__(self, posicao= 0, energia = 20):
         self.posicao = posicao
         self.visitados = []
         self.energia = energia
