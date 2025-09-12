@@ -38,8 +38,6 @@ class Aspirador:
         self.energia -= 1
         return True
             
-
-
     def mover(self, ambiente):
         if self.energia <= 0:
             return
