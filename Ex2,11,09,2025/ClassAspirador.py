@@ -27,7 +27,7 @@ class Aspirador:
             print(f"[Energia: {self.energia}] Limpando posição {self.posicao}")
 
         elif percepcao == "limpo":
-            print(f"[Energia: {self.energia}] Posição {self.posicao} já limpa, movendo...") 
+            print(f"[Energia: {self.energia}] Posição {self.posicao} já limpo, movendo...") 
         
         elif percepcao == "X":
             print(f"[Energia: {self.energia}] Obstaculo na posição {self.posicao}, mudando direção...")
