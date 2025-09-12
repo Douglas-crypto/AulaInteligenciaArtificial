@@ -1,6 +1,6 @@
 # ClassAmbiente.py
 class Ambiente:
-    def __init__(self, posicao=10):  
+    def __init__(self, posicao = 10):  
         self.estado = ["sujo", "limpo", "sujo", "X", "sujo",
                        "limpo", "sujo", "limpo", "X", "sujo"]
 
