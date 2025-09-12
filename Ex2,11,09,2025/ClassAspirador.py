@@ -61,5 +61,5 @@ class Aspirador:
                         self.energia -= 1
                         return
                     
-        print(" Nenhum movimento possível existe um obstaculo em ambas as direções.")
+        print(" Nenhum movimento possível existe um obstaculo.")
         self.energia -= 1
